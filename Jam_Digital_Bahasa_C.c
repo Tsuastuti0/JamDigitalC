@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <windows.h>
 
-int main()
+void main()
 {
 	int h,m,s;
 	int d = 1000;
 	printf("Set time: \n");
 	scanf("%d%d%d", &h,&m,&s);
 	if(h>12 || m>60|| s>60){
-		printf("ERROR ! \n");
+		printf("ERROR MODE! \n");
 		exit(0);
 	}
 	while(1){
